@@ -14,13 +14,16 @@ span.title{
 }
 span.font1{
     color: white;
-    font-size: 14pt;
+    font-size: 16pt;
     font-family: verdana;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 table.table1{
     border: solid rgb(255, 255, 255) 4px;
     border-radius: 10px;
     width: 1400px;
-    height: 400px;
+    height: 350px;
     background-color: rgba(100, 148, 237, 0.63);
+    padding: 30px;
 }
