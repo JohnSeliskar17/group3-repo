@@ -1,0 +1,30 @@
+ul.nav{
+    border-radius: 5px;
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+    background-image: url(../../images/woodBackground2.jpg);
+    position: sticky;
+    top: 0;
+}
+li.lin{
+    float: left;
+}
+li.lin a{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.lin a.active{
+    display: block;
+    color: yellow; /*Change color please, make it look better*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.lin a:hover{
+    color: blue;
+}
