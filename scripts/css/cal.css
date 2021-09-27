@@ -1,0 +1,29 @@
+body{
+    background-image: url("../../images/floor.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+span.title{
+    font-size: 60pt;
+    color: white;
+    font-family: helvetica;
+    text-shadow: black 5px 5px 5px;
+}
+span.font1{
+    color: white;
+    font-size: 16pt;
+    font-family: verdana;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+table.table1{
+    border: solid rgb(255, 255, 255) 4px;
+    border-radius: 10px;
+    width: 1400px;
+    height: 350px;
+    background-color: rgba(100, 148, 237, 0.63);
+    padding: 30px;
+}
