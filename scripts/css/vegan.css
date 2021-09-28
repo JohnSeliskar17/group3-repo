@@ -8,3 +8,6 @@ section.right{
     float: right;
     padding: 7px;
 }
+img.place{
+    height: 400px;
+}
