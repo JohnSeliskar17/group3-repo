@@ -1,0 +1,19 @@
+/*Who deleted the other one?*/
+body {
+    background-image: url(../../images/bar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img.beer {
+    height: 300px;
+}
+h1.header{
+    color:white;
+    text-align: center;
+    text-shadow: 2px 2px purple;
+}
+p.explain{
+    color:white;
+    text-align: center;
+    text-shadow: 2px 2px purple;
+} 
