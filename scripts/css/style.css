@@ -8,12 +8,12 @@ body{
 }
 span.title{
     font-size: 60pt;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: helvetica;
     text-shadow: black 5px 5px 5px;
 }
 span.font1{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 16pt;
     font-family: verdana;
     margin-left: 25px;
@@ -27,3 +27,4 @@ table.table1{
     background-color: rgba(100, 148, 237, 0.63);
     padding: 30px;
 }
+
