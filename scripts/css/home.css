@@ -1,11 +1,11 @@
 /*home style sheet*/
 body.home{
-    background-image: url("../../images/woodBackground3.png");
+    background-image: url(../../images/wood2.jpg);
     background-size:100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
 }
 span.title{
     font-size: 60pt;
@@ -39,7 +39,11 @@ a:link, a:visited {
 .topnav {
     overflow: hidden;
     background-color: 
-    #863131;
+    #4d4d4d;
+    position: absolute;
+    left: 50%;
+    top: 3%;
+    transform: translate(-50%,-50%)
 }
 .topnav a {
     float: left;
@@ -55,12 +59,34 @@ a:link, a:visited {
 }
 /*home style sheet*/
 /*fast vs fresh style sheet*/
-
+body.fvf{
+    background-image: url(../../images/wood2.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
 /*fast vs fresh style sheet*/
 /*calorie Calculater style sheet*/
-
+body.cal{
+    background-image: url(../../images/wood2.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
 /*calorie Calculater style sheet*/
 /*Vegan Option style sheet*/
+body.veg{
+    background-image: url(../../images/wood2.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
 section.left{
     border: 3px solid #000000;
     float: left;
