@@ -28,6 +28,14 @@ table.table1{
     background-color: rgba(100, 148, 237, 0.63);
     padding: 30px;
 }
+a:link, a:visited {
+    background-color: #4d4d4d;
+    color: rgb(170, 30, 30);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
 .topnav {
     overflow: hidden;
     background-color: 
@@ -44,9 +52,6 @@ table.table1{
 .topnav a:hover {
     background-color: #888888;
     color: #8f2c2c;
-<<<<<<< HEAD
-}
-=======
 }
 /*home style sheet*/
 /*fast vs fresh style sheet*/
@@ -71,7 +76,7 @@ img.place{
 }
 /*Vegan Option style sheet*/
 /*How To Die style sheet*/
-body {
+body.die {
     background-image: url(../../images/bar.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,4 +95,3 @@ p.explain{
     text-shadow: 2px 2px purple;
 } 
 /*How To Die style sheet*/
->>>>>>> 2053eec1c5251ffe79b6e1564cd1d1109111385c
