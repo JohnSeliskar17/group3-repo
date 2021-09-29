@@ -58,7 +58,10 @@ a:link, a:visited {
 
 /*fast vs fresh style sheet*/
 /*calorie Calculater style sheet*/
-
+input.calorieNumber{
+    font-family: verdana;
+    font-size: 14pt;
+}
 /*calorie Calculater style sheet*/
 /*Vegan Option style sheet*/
 section.left{
