@@ -28,6 +28,14 @@ table.table1{
     background-color: rgba(100, 148, 237, 0.63);
     padding: 30px;
 }
+a:link, a:visited {
+    background-color: #4d4d4d;
+    color: rgb(170, 30, 30);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
 .topnav {
     overflow: hidden;
     background-color: 
