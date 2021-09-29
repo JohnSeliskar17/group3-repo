@@ -44,9 +44,6 @@ table.table1{
 .topnav a:hover {
     background-color: #888888;
     color: #8f2c2c;
-<<<<<<< HEAD
-}
-=======
 }
 /*home style sheet*/
 /*fast vs fresh style sheet*/
@@ -71,7 +68,7 @@ img.place{
 }
 /*Vegan Option style sheet*/
 /*How To Die style sheet*/
-body {
+body.die {
     background-image: url(../../images/bar.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,4 +87,3 @@ p.explain{
     text-shadow: 2px 2px purple;
 } 
 /*How To Die style sheet*/
->>>>>>> 2053eec1c5251ffe79b6e1564cd1d1109111385c
