@@ -20,12 +20,27 @@ span.font1{
     margin-left: 25px;
     margin-right: 25px;
 }
+span.font2{
+    color: rgb(255, 255, 255);
+    font-size: 12pt;
+    font-family: cursive;
+    margin-left: 25px;
+    margin-right: 25px;
+}
 table.table1{
     border: solid rgb(255, 255, 255) 4px;
     border-radius: 10px;
     width: 1400px;
     height: 350px;
     background-color: rgba(100, 148, 237, 0.63);
+    padding: 30px;
+}
+table.table2{
+    border: solid rgb(0, 0, 0) 4px;
+    border-radius: 10px;
+    width: 1400px;
+    height: 350px;
+    background-color: rgba(20, 73, 172, 0.63);
     padding: 30px;
 }
 a:link, a:visited {
@@ -69,6 +84,7 @@ body.fvf{
 }
 /*fast vs fresh style sheet*/
 /*calorie Calculater style sheet*/
+<<<<<<< HEAD
 body.cal{
     background-image: url(../../images/wood2.jpg);
     background-size:100%;
@@ -76,16 +92,14 @@ body.cal{
     background-attachment: fixed;
     height: 100%;
     width: 100%;
+=======
+input.calorieNumber{
+    font-family: verdana;
+    font-size: 14pt;
+>>>>>>> c13a7558f9a6e3d5c740a3d3eacd7cc3bf94362b
 }
 /*calorie Calculater style sheet*/
 /*Vegan Option style sheet*/
-body.veg{
-    background-image: url(../../images/wood2.jpg);
-    background-size:100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100%;
-    width: 100%;
 }
 section.left{
     border: 3px solid #000000;
