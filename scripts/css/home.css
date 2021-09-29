@@ -27,4 +27,20 @@ table.table1{
     background-color: rgba(100, 148, 237, 0.63);
     padding: 30px;
 }
-
+.topnav {
+    overflow: hidden;
+    background-color: 
+    #863131;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #b13333;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #888888;
+    color: #8f2c2c;
+}
