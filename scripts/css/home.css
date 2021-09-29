@@ -1,5 +1,5 @@
 /*home style sheet*/
-body{
+body.home{
     background-image: url("../../images/woodBackground3.png");
     background-size:100%;
     background-repeat: no-repeat;
