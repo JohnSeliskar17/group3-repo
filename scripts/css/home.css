@@ -20,12 +20,27 @@ span.font1{
     margin-left: 25px;
     margin-right: 25px;
 }
+span.font2{
+    color: rgb(255, 255, 255);
+    font-size: 12pt;
+    font-family: cursive;
+    margin-left: 25px;
+    margin-right: 25px;
+}
 table.table1{
     border: solid rgb(255, 255, 255) 4px;
     border-radius: 10px;
     width: 1400px;
     height: 350px;
     background-color: rgba(100, 148, 237, 0.63);
+    padding: 30px;
+}
+table.table2{
+    border: solid rgb(0, 0, 0) 4px;
+    border-radius: 10px;
+    width: 1400px;
+    height: 350px;
+    background-color: rgba(20, 73, 172, 0.63);
     padding: 30px;
 }
 a:link, a:visited {
