@@ -1,4 +1,5 @@
-body{
+/*home style sheet*/
+body.home{
     background-image: url("../../images/woodBackground3.png");
     background-size:100%;
     background-repeat: no-repeat;
@@ -43,4 +44,50 @@ table.table1{
 .topnav a:hover {
     background-color: #888888;
     color: #8f2c2c;
+<<<<<<< HEAD
 }
+=======
+}
+/*home style sheet*/
+/*fast vs fresh style sheet*/
+
+/*fast vs fresh style sheet*/
+/*calorie Calculater style sheet*/
+
+/*calorie Calculater style sheet*/
+/*Vegan Option style sheet*/
+section.left{
+    border: 3px solid #000000;
+    float: left;
+    padding: 7px;
+}
+section.right{
+    border: 3px solid #000000;
+    float: right;
+    padding: 7px;
+}
+img.place{
+    height: 400px;
+}
+/*Vegan Option style sheet*/
+/*How To Die style sheet*/
+body {
+    background-image: url(../../images/bar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img.beer {
+    height: 300px;
+}
+h1.header{
+    color:white;
+    text-align: center;
+    text-shadow: 2px 2px purple;
+}
+p.explain{
+    color:white;
+    text-align: center;
+    text-shadow: 2px 2px purple;
+} 
+/*How To Die style sheet*/
+>>>>>>> 2053eec1c5251ffe79b6e1564cd1d1109111385c
