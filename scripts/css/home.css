@@ -84,20 +84,48 @@ body.fvf{
 }
 /*fast vs fresh style sheet*/
 /*calorie Calculater style sheet*/
-<<<<<<< HEAD
 #calorieNumber{
     font-family: verdana;
     font-size: 14pt;
 }
 #fries{
-    background-image: url(../../images/food/fries.jpg);
+    border: black solid 2px;
     width: 250;
     height: 250;
-=======
-input.calorieNumber{
-    font-family: verdana;
-    font-size: 14pt;
->>>>>>> cb792862467cd554b46123700c8aeff34a9e3753
+}
+#bigmac{
+    border: black solid 2px;
+    width: 250;
+    height: 250;
+}
+#baconator{
+    border: black solid 2px;
+    height: 250;
+}
+#davesdouble{
+    border: black solid 2px;
+    width: 250;
+    height: 250;
+}
+#frosty{
+    border: black solid 2px;
+    width: 250;
+    height: 250;
+}
+#spicychicken{
+    border: black solid 2px;
+    width: 250;
+    height: 250;
+}
+#whopper{
+    border: black solid 2px;
+    height: 250;
+    float: left;
+}
+#baconking{
+    border: black solid 2px;
+    height: 250;
+    float: right;
 }
 /*calorie Calculater style sheet*/
 /*Vegan Option style sheet*/
