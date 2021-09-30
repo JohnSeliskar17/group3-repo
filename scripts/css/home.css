@@ -82,10 +82,14 @@ body.fvf{
     width: 100%;
 }
 /*fast vs fresh style sheet*/
-/*calorie Calculater style sheet*/
+/*calorie Calculator style sheet*/
+div.bigfont{
+    font-family: verdana;
+    font-size: 20pt;
+}
 #calorieNumber{
     font-family: verdana;
-    font-size: 14pt;
+    font-size: 40pt;
 }
 #fries{
     border: black solid 2px;
