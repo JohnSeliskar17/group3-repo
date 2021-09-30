@@ -141,6 +141,23 @@ section.right{
 img.place{
     height: 400px;
 }
+#place1{
+    height: 400px;
+}
+#place2{
+    height: 400px;
+}
+#place3{
+    height: 400px;
+}
+#place4{
+    height: 400px;
+}
+#info{
+    size: 32pt;
+    color: white;
+    font-family: sans-serif;
+}
 /*Vegan Option style sheet*/
 /*How To Die style sheet*/
 body.die {
