@@ -84,9 +84,20 @@ body.fvf{
 }
 /*fast vs fresh style sheet*/
 /*calorie Calculater style sheet*/
+<<<<<<< HEAD
+#calorieNumber{
+    font-family: verdana;
+    font-size: 14pt;
+}
+#fries{
+    background-image: url(../../images/food/fries.jpg);
+    width: 250;
+    height: 250;
+=======
 input.calorieNumber{
     font-family: verdana;
     font-size: 14pt;
+>>>>>>> ac2b7d46b068c0425c9109f4513b605898a127a0
 }
 /*calorie Calculater style sheet*/
 /*Vegan Option style sheet*/
