@@ -38,7 +38,7 @@
 >>>>>>> 0df5cab285ea07e596ad7a7ac226946b51f2e8d7
         <table>
             <tr>
-                <div>Your current calorie count is:<div id="calorieNumber">0</div></div>
+                <div class="bigfont">Your current calorie count is:<div id="calorieNumber">0</div></div>
             </tr>
         </table>
         </center>
@@ -47,17 +47,46 @@
             /*The variable calorie number is the variable that is responsible for displaying the first and final number on the calorie display, this could probably be done more efficient but that is far from a priority*/
             /*The variable real number is responsible for getting the number value of whats in the calorie display*/
             /*The variable newNumber is there so that calorieNumber can be updated correctly*/
-            let calorieNumber = 0
-            let newNumber = 0
+            var  calorieNumber = 0;
             document.getElementById("fries").addEventListener(`click` , function fries() {
-                    let realNumber = document.getElementById("calorieNumber").value;
-                    let newNumber = realNumber =+ 387;
-                    let calorieNumber = newNumber;
-                    document.getElementById("calorieNumber").value = calorieNumber;
+                    calorieNumber += 387;
                     document.getElementById("calorieNumber").innerHTML = calorieNumber;
+                    document.getElementById("calorieNumber").value += calorieNumber;
                 });
-            document.getElementById("bigmac").addEventListener(`click` , function fries() {
-                    alert(`hello`);
+            document.getElementById("bigmac").addEventListener(`click` , function bigmac() {
+                    calorieNumber += 563;
+                    document.getElementById("calorieNumber").innerHTML = calorieNumber;
+                    document.getElementById("calorieNumber").value += calorieNumber;
+                });
+            document.getElementById("baconator").addEventListener(`click` , function baconator() {
+                    calorieNumber += 920;
+                    document.getElementById("calorieNumber").innerHTML = calorieNumber;
+                    document.getElementById("calorieNumber").value += calorieNumber;
+                });
+            document.getElementById("davesdouble").addEventListener(`click` , function davesdouble() {
+                    calorieNumber += 810;
+                    document.getElementById("calorieNumber").innerHTML = calorieNumber;
+                    document.getElementById("calorieNumber").value += calorieNumber;
+                });
+            document.getElementById("frosty").addEventListener(`click` , function frosty() {
+                    calorieNumber += 393;
+                    document.getElementById("calorieNumber").innerHTML = calorieNumber;
+                    document.getElementById("calorieNumber").value += calorieNumber;
+                });
+            document.getElementById("spicychicken").addEventListener(`click` , function spicychicken() {
+                    calorieNumber += 350;
+                    document.getElementById("calorieNumber").innerHTML = calorieNumber;
+                    document.getElementById("calorieNumber").value += calorieNumber;
+                });
+            document.getElementById("whopper").addEventListener(`click` , function whopper() {
+                    calorieNumber += 677;
+                    document.getElementById("calorieNumber").innerHTML = calorieNumber;
+                    document.getElementById("calorieNumber").value += calorieNumber;
+                });
+            document.getElementById("baconking").addEventListener(`click` , function baconking() {
+                    calorieNumber += 1150;
+                    document.getElementById("calorieNumber").innerHTML = calorieNumber;
+                    document.getElementById("calorieNumber").value += calorieNumber;
                 });
         </script>
     </body>
