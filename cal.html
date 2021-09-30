@@ -2,7 +2,7 @@
     <head>
         <title>Calorie Count</title>
         <link rel="stylesheet" href="scripts/css/home.css">
-        <script src="cal-javaScript.js"></script>
+
     </head>
     <body>
         <div class ="topnav">
@@ -12,6 +12,7 @@
             <a href="veg.html">Vegan Options</a>
             <a href="die.html">How to die</a>       
         </div>
+<<<<<<< HEAD
         <br><br><br>
         <center><span class="title"> Calorie Counter </span><br></center>
         <img height="250px" src="/images/food/fries.jpg" onclick="fries();">
@@ -24,10 +25,40 @@
         <img height="250px" src="/images/food/whopper.jpg" onclick="whopper();">
         <img height="250px" src="/images/food/baconking.jpg" onclick="baconking();">
 
+=======
+        <center><span class="title"> Calorie Counter </span><br>
+        <img src="images/food/fries.jpg" id="fries">
+        <img src="images/food/bigmac.jpg" id="bigmac">
+        <img src="images/food/baconator.png" id="baconator">
+        <img src="images/food/davesdouble.jpg" id="davesdouble">
+        <img src="images/food/frosty.jpg" id="frosty">
+        <img src="images/food/spicychicken.jpg" id="spicychicken">
+        <img src="images/food/whopper.jpg" id="whopper">
+        <img src="images/food/baconking.jpg" id="baconking">
+>>>>>>> 0df5cab285ea07e596ad7a7ac226946b51f2e8d7
         <table>
             <tr>
-                <div>Your current calorie count is:<input type="text" value="" id="calorieNumber" width="300px"></div>
+                <div>Your current calorie count is:<div id="calorieNumber">0</div></div>
             </tr>
         </table>
+        </center>
+        <script>
+            /*for the calorie calculator, the goal is to click the picture, and to have an individual function run for each picture that adds the number of calories to a specific text box, preferably you wont be allowed to type in the text box*/
+            /*The variable calorie number is the variable that is responsible for displaying the first and final number on the calorie display, this could probably be done more efficient but that is far from a priority*/
+            /*The variable real number is responsible for getting the number value of whats in the calorie display*/
+            /*The variable newNumber is there so that calorieNumber can be updated correctly*/
+            let calorieNumber = 0
+            let newNumber = 0
+            document.getElementById("fries").addEventListener(`click` , function fries() {
+                    let realNumber = document.getElementById("calorieNumber").value;
+                    let newNumber = realNumber =+ 387;
+                    let calorieNumber = newNumber;
+                    document.getElementById("calorieNumber").value = calorieNumber;
+                    document.getElementById("calorieNumber").innerHTML = calorieNumber;
+                });
+            document.getElementById("bigmac").addEventListener(`click` , function fries() {
+                    alert(`hello`);
+                });
+        </script>
     </body>
 </html>
