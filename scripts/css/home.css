@@ -92,6 +92,40 @@ body.fvf{
     width: 250;
     height: 250;
 }
+#bigmac{
+    border: black solid 2px;
+    width: 250;
+    height: 250;
+}
+#baconator{
+    border: black solid 2px;
+    height: 250;
+}
+#davesdouble{
+    border: black solid 2px;
+    width: 250;
+    height: 250;
+}
+#frosty{
+    border: black solid 2px;
+    width: 250;
+    height: 250;
+}
+#spicychicken{
+    border: black solid 2px;
+    width: 250;
+    height: 250;
+}
+#whopper{
+    border: black solid 2px;
+    height: 250;
+    float: left;
+}
+#baconking{
+    border: black solid 2px;
+    height: 250;
+    float: right;
+}
 /*calorie Calculater style sheet*/
 /*Vegan Option style sheet*/
 section.left{
