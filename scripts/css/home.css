@@ -129,6 +129,7 @@ section.gray{
     float: right;
     padding: 7px;
     background-color: #a1a1a1;
+    position: sticky;
 }
 section.man{
     border: 3px solid #000000;
@@ -149,6 +150,18 @@ section.female{
     background-color: #ff9494;
 }
 #drink{
+    height: 300px;
+}
+#sparkling{
+    height: 300px;
+}
+#reject{
+    height: 300px;
+}
+#russia{
+    height: 300px;
+}
+#wine{
     height: 300px;
 }
 /*How To Die style sheet*/
