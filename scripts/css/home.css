@@ -83,6 +83,13 @@ body.fvf{
 }
 /*fast vs fresh style sheet*/
 /*calorie Calculator style sheet*/
+table.number{
+    border: steelblue 2px;
+    border-radius: 5px;
+    background-color: rgba(0, 128, 128, 0.473);
+    width: 600px;
+    height: 300px;
+}
 div.bigfont{
     font-family: verdana;
     font-size: 20pt;
