@@ -84,9 +84,9 @@ body.fvf{
 /*fast vs fresh style sheet*/
 /*calorie Calculator style sheet*/
 table.number{
-    border: steelblue 2px;
+    border: rgb(52, 95, 131) 5px solid;
     border-radius: 5px;
-    background-color: rgba(0, 128, 128, 0.473);
+    background-color: rgba(101, 218, 218, 0.685);
     width: 600px;
     height: 300px;
 }
@@ -94,9 +94,12 @@ div.bigfont{
     font-family: verdana;
     font-size: 20pt;
 }
+div.smallertext{
+    
+}
 #calorieNumber{
     font-family: verdana;
-    font-size: 40pt;
+    font-size: 60pt;
 }
 #fries{
     border: black solid 2px;
