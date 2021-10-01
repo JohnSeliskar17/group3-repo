@@ -165,6 +165,30 @@ img.place{
     color: white;
     font-family: sans-serif;
 }
+#header{
+    color: white;
+    font-family: sans-serif;
+}
+#fact1{
+    size: 32pt;
+    color: white;
+    font-family: sans-serif;
+}
+#fact2{
+    size: 32pt;
+    color: white;
+    font-family: sans-serif;
+}
+#fact3{
+    size: 32pt;
+    color: white;
+    font-family: sans-serif;
+}
+#fact5{
+    size: 32pt;
+    color: white;
+    font-family: sans-serif;
+}
 /*Vegan Option style sheet*/
 /*How To Die style sheet*/
 body.die {
