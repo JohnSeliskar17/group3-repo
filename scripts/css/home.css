@@ -35,6 +35,22 @@ table.table1{
     background-color: rgba(100, 148, 237, 0.63);
     padding: 30px;
 }
+table.table2{
+    border: solid rgb(0, 0, 0) 4px;
+    border-radius: 10px;
+    width: 1400px;
+    height: 350px;
+    background-color:rgba(100, 148, 237, 0.63);
+    padding: 30px;
+}
+table.tablefvf{
+    border: solid rgb(255, 255, 255) 4px;
+    border-radius: 10px;
+    width: 1400px;
+    height: 300px;
+    background-color: rgba(100, 148, 237, 0.63);
+    padding: 30px;
+}
 a:link, a:visited {
     background-color: #4d4d4d;
     color: rgba(100, 148, 237, 0.63);
@@ -56,7 +72,7 @@ a:link, a:visited {
     float: left;
     display: block;
     border: solid white 2px;
-    border-radius: 8px;
+    border-radius: 9px;
     color: rgba(100, 148, 237, 0.63);
     text-align: center;
     padding: 14px 30px;
@@ -78,13 +94,20 @@ body.fvf{
 }
 /*fast vs fresh style sheet*/
 /*calorie Calculator style sheet*/
+table.number{
+    border: white 4px solid;
+    border-radius: 10px;
+    background-color:rgba(100, 148, 237, 0.63);
+    width: 600px;
+    height: 300px;
+}
 div.bigfont{
     font-family: verdana;
     font-size: 20pt;
 }
 #calorieNumber{
     font-family: verdana;
-    font-size: 40pt;
+    font-size: 60pt;
 }
 #fries{
     border: black solid 2px;
@@ -157,6 +180,30 @@ img.place{
     color: white;
     font-family: sans-serif;
 }
+#header{
+    color: white;
+    font-family: sans-serif;
+}
+#fact1{
+    size: 32pt;
+    color: white;
+    font-family: sans-serif;
+}
+#fact2{
+    size: 32pt;
+    color: white;
+    font-family: sans-serif;
+}
+#fact3{
+    size: 32pt;
+    color: white;
+    font-family: sans-serif;
+}
+#fact5{
+    size: 32pt;
+    color: white;
+    font-family: sans-serif;
+}
 /*Vegan Option style sheet*/
 /*How To Die style sheet*/
 body.die {
@@ -217,6 +264,10 @@ section.female{
 #wine{
     height: 300px;
 }
+img.wooden{
+    width: 400px;
+    height: 100px;
+}
 /*How To Die style sheet*/
 /*fast vs fresh style sheet*/
 
@@ -238,7 +289,6 @@ body {
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
   
   .flip-card:hover .flip-card-inner {
