@@ -40,15 +40,7 @@ table.table2{
     border-radius: 10px;
     width: 1400px;
     height: 350px;
-    background-color:rgba(100, 148, 237, 0.63);
-    padding: 30px;
-}
-table.tablefvf{
-    border: solid rgb(255, 255, 255) 4px;
-    border-radius: 10px;
-    width: 1400px;
-    height: 300px;
-    background-color: rgba(100, 148, 237, 0.63);
+    background-color: rgba(20, 73, 172, 0.63);
     padding: 30px;
 }
 a:link, a:visited {
@@ -72,7 +64,7 @@ a:link, a:visited {
     float: left;
     display: block;
     border: solid white 2px;
-    border-radius: 9px;
+    border-radius: 8px;
     color: rgba(100, 148, 237, 0.63);
     text-align: center;
     padding: 14px 30px;
@@ -95,18 +87,15 @@ body.fvf{
 /*fast vs fresh style sheet*/
 /*calorie Calculator style sheet*/
 table.number{
-    border: white 4px solid;
-    border-radius: 10px;
-    background-color:rgba(100, 148, 237, 0.63);
+    border: rgb(52, 95, 131) 5px solid;
+    border-radius: 5px;
+    background-color: rgba(101, 218, 218, 0.685);
     width: 600px;
     height: 300px;
 }
 div.bigfont{
     font-family: verdana;
     font-size: 20pt;
-}
-div.smallertext{
-
 }
 #calorieNumber{
     font-family: verdana;
@@ -151,6 +140,22 @@ div.smallertext{
     height: 250;
     float: right;
 }
+@property --num {
+    syntax: '<integer>';
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  div.counter {
+    transition: --num 1s;
+    counter-reset: num var(--num);
+  }
+  div.counter:hover {
+    --num: 10000;
+  }
+  div.counter::after {
+    content: counter(num);
+  }
 /*calorie Calculater style sheet*/
 /*Vegan Option style sheet*/
 section.left{
@@ -179,30 +184,6 @@ img.place{
     height: 400px;
 }
 #info{
-    size: 32pt;
-    color: white;
-    font-family: sans-serif;
-}
-#header{
-    color: white;
-    font-family: sans-serif;
-}
-#fact1{
-    size: 32pt;
-    color: white;
-    font-family: sans-serif;
-}
-#fact2{
-    size: 32pt;
-    color: white;
-    font-family: sans-serif;
-}
-#fact3{
-    size: 32pt;
-    color: white;
-    font-family: sans-serif;
-}
-#fact5{
     size: 32pt;
     color: white;
     font-family: sans-serif;
@@ -266,9 +247,5 @@ section.female{
 }
 #wine{
     height: 300px;
-}
-img.wooden{
-    width: 400px;
-    height: 100px;
 }
 /*How To Die style sheet*/
