@@ -40,7 +40,7 @@ table.table2{
     border-radius: 10px;
     width: 1400px;
     height: 350px;
-    background-color: rgba(20, 73, 172, 0.63);
+    background-color:rgba(100, 148, 237, 0.63);
     padding: 30px;
 }
 table.tablefvf{
@@ -95,9 +95,9 @@ body.fvf{
 /*fast vs fresh style sheet*/
 /*calorie Calculator style sheet*/
 table.number{
-    border: rgb(52, 95, 131) 5px solid;
-    border-radius: 5px;
-    background-color: rgba(101, 218, 218, 0.685);
+    border: white 4px solid;
+    border-radius: 10px;
+    background-color:rgba(100, 148, 237, 0.63);
     width: 600px;
     height: 300px;
 }
