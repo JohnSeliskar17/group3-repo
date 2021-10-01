@@ -86,13 +86,23 @@ body.fvf{
 }
 /*fast vs fresh style sheet*/
 /*calorie Calculator style sheet*/
+table.number{
+    border: rgb(52, 95, 131) 5px solid;
+    border-radius: 5px;
+    background-color: rgba(101, 218, 218, 0.685);
+    width: 600px;
+    height: 300px;
+}
 div.bigfont{
     font-family: verdana;
     font-size: 20pt;
 }
+div.smallertext{
+    
+}
 #calorieNumber{
     font-family: verdana;
-    font-size: 40pt;
+    font-size: 60pt;
 }
 #fries{
     border: black solid 2px;
@@ -165,6 +175,30 @@ img.place{
     color: white;
     font-family: sans-serif;
 }
+#header{
+    color: white;
+    font-family: sans-serif;
+}
+#fact1{
+    size: 32pt;
+    color: white;
+    font-family: sans-serif;
+}
+#fact2{
+    size: 32pt;
+    color: white;
+    font-family: sans-serif;
+}
+#fact3{
+    size: 32pt;
+    color: white;
+    font-family: sans-serif;
+}
+#fact5{
+    size: 32pt;
+    color: white;
+    font-family: sans-serif;
+}
 /*Vegan Option style sheet*/
 /*How To Die style sheet*/
 body.die {
@@ -224,5 +258,9 @@ section.female{
 }
 #wine{
     height: 300px;
+}
+img.wooden{
+    width: 400px;
+    height: 100px;
 }
 /*How To Die style sheet*/
