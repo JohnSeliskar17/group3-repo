@@ -36,12 +36,15 @@ table.table1{
     padding: 30px;
 }
 table.table2{
-    border: solid rgb(0, 0, 0) 4px;
+    border: solid  rgb(255, 255, 255) 4px;
     border-radius: 10px;
-    width: 1400px;
+    width: 500px;
     height: 350px;
     background-color: rgba(20, 73, 172, 0.63);
     padding: 30px;
+    position: absolute;
+    right: 60%;
+    top: 65%
 }
 a:link, a:visited {
     background-color: #4d4d4d;
