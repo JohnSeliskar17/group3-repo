@@ -36,12 +36,15 @@ table.table1{
     padding: 30px;
 }
 table.table2{
-    border: solid rgb(0, 0, 0) 4px;
+    border: solid  rgb(255, 255, 255) 4px;
     border-radius: 10px;
-    width: 1400px;
+    width: 500px;
     height: 350px;
     background-color: rgba(20, 73, 172, 0.63);
     padding: 30px;
+    position: absolute;
+    right: 60%;
+    top: 65%
 }
 a:link, a:visited {
     background-color: #4d4d4d;
@@ -156,10 +159,10 @@ img.place{
     height: 400px;
 }
 #place1{
-    height: 400px;
+    height: 200px;
 }
 #place2{
-    height: 400px;
+    height: 350px;
 }
 #place3{
     height: 400px;
@@ -168,6 +171,30 @@ img.place{
     height: 400px;
 }
 #info{
+    size: 32pt;
+    color: white;
+    font-family: sans-serif;
+}
+#header{
+    color: white;
+    font-family: sans-serif;
+}
+#fact1{
+    size: 32pt;
+    color: white;
+    font-family: sans-serif;
+}
+#fact2{
+    size: 32pt;
+    color: white;
+    font-family: sans-serif;
+}
+#fact3{
+    size: 32pt;
+    color: white;
+    font-family: sans-serif;
+}
+#fact5{
     size: 32pt;
     color: white;
     font-family: sans-serif;
@@ -230,6 +257,10 @@ section.female{
     height: 300px;
 }
 #wine{
+    height: 300px;
+}
+img.wooden{
+    width: 400px;
     height: 300px;
 }
 /*How To Die style sheet*/
