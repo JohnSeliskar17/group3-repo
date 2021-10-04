@@ -57,7 +57,7 @@ a:link, a:visited {
     background-color:  #4d4d4d;
     position: absolute;
     left: 50%;
-    top: 4%;
+    top: 3%;
     transform: translate(-50%,-50%)
 }
 .topnav a {
@@ -140,22 +140,6 @@ div.bigfont{
     height: 250;
     float: right;
 }
-@property --num {
-    syntax: '<integer>';
-    initial-value: 0;
-    inherits: false;
-  }
-  
-  div.counter {
-    transition: --num 1s;
-    counter-reset: num var(--num);
-  }
-  div.counter:hover {
-    --num: 10000;
-  }
-  div.counter::after {
-    content: counter(num);
-  }
 /*calorie Calculater style sheet*/
 /*Vegan Option style sheet*/
 section.left{
@@ -249,47 +233,3 @@ section.female{
     height: 300px;
 }
 /*How To Die style sheet*/
-/*fast vs fresh style sheet*/
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 300px;
-    perspective: 1000px;
-  }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-  }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .flip-card-front {
-    color: rgb(255, 255, 255);
-  }
-  
-  .flip-card-back {
-    color: white;
-    transform: rotateY(180deg);
-
-  }
-  
