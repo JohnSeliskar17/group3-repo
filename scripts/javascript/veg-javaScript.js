@@ -3,20 +3,20 @@ let placeHolderTwo = document.querySelector('#place2');
 let placeHolderThree = document.querySelector('#place3');
 let placeHolderFout = document.querySelector('#place4');
 function homeIndex(){
-    document.getElementById(`header`).innerHTML = "You did it!";
-    document.getElementById(`info`).innerHTML = "Success";
-    document.getElementById(`fact1`).innerHTML = "Fact";
-    document.getElementById(`fact2`).innerHTML = "Chaos";
-    document.getElementById(`fact3`).innerHTML = "Goose";
-    document.getElementById(`fact5`).innerHTML = "Oppih";
+    document.getElementById(`header`).innerHTML = "Vegan Hot Dogs";
+    document.getElementById(`info`).innerHTML = "Yes thats apparently a thing";
+    document.getElementById(`fact1`).innerHTML = "Made with soybeans instead of, whatever hot dogs are made of";
+    document.getElementById(`fact2`).innerHTML = "42% less calories";
+    document.getElementById(`fact3`).innerHTML = "More pottasium";
+    document.getElementById(`fact5`).innerHTML = "More protein";
 }
 function fastFresh(){
-    document.getElementById(`header`).innerHTML = "How did you fail?!";
-    document.getElementById(`info`).innerHTML = "Failure";
-    document.getElementById(`fact1`).innerHTML = "Hippopotomonstrosesquippedaliophobia";
-    document.getElementById(`fact2`).innerHTML = "Is the fear of long words";
-    document.getElementById(`fact3`).innerHTML = "Aibohphobia";
-    document.getElementById(`fact5`).innerHTML = "The fear of palindromes";
+    document.getElementById(`header`).innerHTML = "Vegan Water";
+    document.getElementById(`info`).innerHTML = "Also known as diet water";
+    document.getElementById(`fact1`).innerHTML = "100% less hydrogen";
+    document.getElementById(`fact2`).innerHTML = "0 calories";
+    document.getElementById(`fact3`).innerHTML = "Fun for the whole family";
+    document.getElementById(`fact5`).innerHTML = "Vegan water, now with more oxygen";
 }
 function calorieCalculator(){
     document.getElementById(`header`).innerHTML = "Never gonna give you up";
@@ -27,12 +27,12 @@ function calorieCalculator(){
     document.getElementById(`fact5`).innerHTML = "Burger King";
 }
 function veganOption(){
-    document.getElementById(`header`).innerHTML = "I have loads of ideas!"
-    document.getElementById(`info`).innerHTML = "I'm out of ideas";
-    document.getElementById(`fact1`).innerHTML = "Seriously help";
-    document.getElementById(`fact2`).innerHTML = "I ran out of funny";
-    document.getElementById(`fact3`).innerHTML = "I need funny!";
-    document.getElementById(`fact5`).innerHTML = "Welp, ciao!";
+    document.getElementById(`header`).innerHTML = "Meatball alternatives"
+    document.getElementById(`info`).innerHTML = "Soybeans, tofu, almonds, Paris, the entirety of Mars";
+    document.getElementById(`fact1`).innerHTML = "Made with 0% animals";
+    document.getElementById(`fact2`).innerHTML = "Gives you good dreams (Not responsible for nightmares of torture, torment, or anything similar reported in 90% of people who eat)";
+    document.getElementById(`fact3`).innerHTML = "Only $149.99!";
+    document.getElementById(`fact5`).innerHTML = "Order now!";
 }
 placeHolderOne.addEventListener(`click`, homeIndex);
 placeHolderTwo.addEventListener(`click`, fastFresh);

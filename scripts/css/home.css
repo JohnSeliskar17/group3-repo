@@ -49,7 +49,7 @@ a:link, a:visited {
     background-color:  #4d4d4d;
     position: absolute;
     left: 50%;
-    top: 4%;
+    top: 3%;
     transform: translate(-50%,-50%)
 }
 .topnav a {
@@ -132,22 +132,6 @@ div.bigfont{
     height: 250;
     float: right;
 }
-@property --num {
-    syntax: '<integer>';
-    initial-value: 0;
-    inherits: false;
-  }
-  
-  div.counter {
-    transition: --num 1s;
-    counter-reset: num var(--num);
-  }
-  div.counter:hover {
-    --num: 10000;
-  }
-  div.counter::after {
-    content: counter(num);
-  }
 /*calorie Calculater style sheet*/
 /*Vegan Option style sheet*/
 section.left{
@@ -164,10 +148,10 @@ img.place{
     height: 400px;
 }
 #place1{
-    height: 400px;
+    height: 200px;
 }
 #place2{
-    height: 400px;
+    height: 350px;
 }
 #place3{
     height: 400px;
@@ -269,6 +253,7 @@ img.wooden{
     height: 300px;
 }
 /*How To Die style sheet*/
+<<<<<<< HEAD
 /*fast vs fresh style sheet*/
 
 body {
@@ -344,3 +329,5 @@ table.table3{
     right: 60%;
     top: 65%
 }
+=======
+>>>>>>> 79a387ce4d9ece1c9e78433a6f07e7f9ad6ab94c
