@@ -13,8 +13,13 @@
             <a href="die.html">How to die</a>   
             <a href="login.html">Login</a>    
         </div><br><br><br><br><br>
-        <center><span class="title"> Calorie Counter </span><br>
-            <div class="smallertext"></div>
+        <center><span class="title"> Calorie Counter </span><br><br><br>
+            <table class="caloriebox">
+                <td>
+                    <div class="caloriefont"> Welcome to the world's first: Calorie Counter! With out patented <span class="caloriefont" style="font-style: italic">EZ-FOR-MORONS</span> technology, we've developed the perfect way to devise a fast-food meal sized perfect for you! Simply click on the images of the food you want, and the Calorie Counter will tell you exactly how large your caloric intake will be!</div>
+                </td>
+            </table>
+            <br><br><br>
         <img src="images/food/fries.jpg" id="fries">
         <img src="images/food/bigmac.jpg" id="bigmac">
         <img src="images/food/baconator.png" id="baconator">
@@ -26,12 +31,17 @@
         
         <table class="number">
             <td>
-                <div class="bigfont">Your current calorie count is:</div>
+                <div class="bigfont">Your current Calorie Count is:</div>
             </td>
             <td>
                 <div class="counter" id="calorieNumber">0</div>
             </td>
         </table>
+        <img src="images/food/mcchicken.png" id="mcchicken">
+        <img src="images/food/footlong.jpg" id="footlong">
+        <img src="images/food/coke.png" id="coke">
+        <img src="images/food/sprite.jpg" id="sprite">
+        <img src="images/food/mountain.jpg" id="mountain"><br><br><br><br>
         </center>
         <script>
             /*for the calorie calculator, the goal is to click the picture, and to have an individual function run for each picture that adds the number of calories to a specific text box, preferably you wont be allowed to type in the text box*/
@@ -76,6 +86,31 @@
                 });
             document.getElementById("baconking").addEventListener(`click` , function baconking() {
                     calorieNumber += 1150;
+                    document.getElementById("calorieNumber").innerHTML = calorieNumber;
+                    document.getElementById("calorieNumber").value += calorieNumber;
+                });
+            document.getElementById("mcchicken").addEventListener(`click` , function mcchicken() {
+                    calorieNumber += 357;
+                    document.getElementById("calorieNumber").innerHTML = calorieNumber;
+                    document.getElementById("calorieNumber").value += calorieNumber;
+                });
+            document.getElementById("mountain").addEventListener(`click` , function mountain() {
+                    calorieNumber += 170;
+                    document.getElementById("calorieNumber").innerHTML = calorieNumber;
+                    document.getElementById("calorieNumber").value += calorieNumber;
+                });
+            document.getElementById("footlong").addEventListener(`click` , function footlong() {
+                    calorieNumber += 620;
+                    document.getElementById("calorieNumber").innerHTML = calorieNumber;
+                    document.getElementById("calorieNumber").value += calorieNumber;
+                });
+            document.getElementById("coke").addEventListener(`click` , function coke() {
+                    calorieNumber += 140;
+                    document.getElementById("calorieNumber").innerHTML = calorieNumber;
+                    document.getElementById("calorieNumber").value += calorieNumber;
+                });
+            document.getElementById("sprite").addEventListener(`click` , function sprite() {
+                    calorieNumber += 140;
                     document.getElementById("calorieNumber").innerHTML = calorieNumber;
                     document.getElementById("calorieNumber").value += calorieNumber;
                 });
