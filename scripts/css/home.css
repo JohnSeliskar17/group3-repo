@@ -488,8 +488,8 @@ table.table2{
     background-color: rgba(100, 148, 237, 0.63);
     padding: 30px;
     position: absolute;
-    right: 60%;
-    top: 65%
+    right: -902px;
+    top: -.7%;
 }
 table.table3{
     border: solid  rgb(255, 255, 255) 4px;

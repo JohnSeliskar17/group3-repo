@@ -1,5 +1,5 @@
 body.home{
-background-color: rgb(71, 71, 71);
+background-color: rgb(112, 112, 112);
 }
 a:link, a:visited {
     background-color: #4d4d4d;
@@ -96,5 +96,9 @@ span.psw {
     }
     .cancelbtn {
     width: 100%;
+<<<<<<< HEAD
+    }
+=======
     }
 }
+>>>>>>> 4dad9e72d80ce302a281573562a19d71ede9a421
