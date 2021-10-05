@@ -79,97 +79,244 @@ body.fvf{
 /*fast vs fresh style sheet*/
 /*calorie Calculator style sheet*/
 table.number{
-    border: rgb(52, 95, 131) 5px solid;
-    border-radius: 5px;
-    background-color: rgba(101, 218, 218, 0.685);
-    width: 600px;
-    height: 270px;
+    border-radius: 10px;
+    border: solid white 4px;
+    background-color: rgba(100, 148, 237, 0.63);
+    width: 700px;
+    height: 275px;
+}
+table.caloriebox{
+    border-radius: 10px;
+    border: solid white 4px;
+    background-color: rgba(100, 148, 237, 0.63);
+    width: 850px;
+    height: 200px;
+    padding: 10px;
 }
 div.bigfont{
     font-family: verdana;
     font-size: 20pt;
+    color: white;
+    text-shadow: black 3px 3px 3px;
+}
+div.caloriefont{
+    font-family: verdana;
+    font-size: 14pt;
+    color: white;
+    text-shadow: black 2px 2px 2px;
 }
 #calorieNumber{
     font-family: verdana;
     font-size: 60pt;
+    color: white;
+    text-shadow: darkblue 4px 4px 4px;
 }
 #fries{
     border: black solid 2px;
     width: 250;
     height: 250;
+    transition: transform .2s;
+    transform: scale(1.0);
+    position:relative;
 }
 #bigmac{
     border: black solid 2px;
     width: 250;
     height: 250;
+    transition: transform .2s;
+    transform: scale(1.0);
+    position:relative;
 }
 #baconator{
     border: black solid 2px;
     height: 250;
+    transition: transform .2s;
+    transform: scale(1.0);
+    position:relative;
 }
 #davesdouble{
     border: black solid 2px;
     width: 250;
     height: 250;
+    transition: transform .2s;
+    transform: scale(1.0);
+    position:relative;
 }
 #frosty{
     border: black solid 2px;
     width: 250;
     height: 250;
+    transition: transform .2s;
+    transform: scale(1.0);
+    position:relative;
 }
 #spicychicken{
     border: black solid 2px;
     width: 250;
     height: 250;
+    transition: transform .2s;
+    transform: scale(1.0);
+    position:relative;
 }
 #whopper{
     border: black solid 2px;
     height: 250;
     float: left;
     margin-left: 117px;
+    transition: transform .2s;
+    transform: scale(1.0);
+    position:relative;
 }
 #baconking{
     border: black solid 2px;
     height: 250;
     float: right;
     margin-right: 117px;
+    transition: transform .2s;
+    transform: scale(1.0);
+    position:relative;
 }
 #mcchicken{
     border: black solid 2px;
     height: 250;
     background-color: white;
+    transition: transform .2s;
+    transform: scale(1.0);
+    position:relative;
 }
 #footlong{
     border: black solid 2px;
     height: 250;
     background-color: white;
+    transition: transform .2s;
+    transform: scale(1.0);
+    position:relative;
 }
 #coke{
     border: black solid 2px;
     height: 250;
     background-color: white;
+    transition: transform .2s;
+    transform: scale(1.0);
+    position:relative;
 }
 #sprite{
     border: black solid 2px;
     height: 250;
     background-color: white;
+    transition: transform .2s;
+    transform: scale(1.0);
+    position:relative;
 }
 #mountain{
     border: black solid 2px;
     height: 250;
     background-color: white;
+    transition: transform .2s;
+    transform: scale(1.0);
+    position:relative;
+}
+#fries:hover{
+    border: darkcyan solid 2px;
+    transition: transform .2s;
+    transform: scale(1.1);
+    z-index: 15;
+}
+#bigmac:hover{
+    border: darkcyan solid 2px;
+    transition: transform .2s;
+    transform: scale(1.1);
+    z-index: 15;
+}
+#baconator:hover{
+    border: darkcyan solid 2px;
+    transition: transform .2s;
+    transform: scale(1.1);
+    z-index: 15;
+}
+#davesdouble:hover{
+    border: darkcyan solid 2px;
+    transition: transform .2s;
+    transform: scale(1.1);
+    z-index: 15;
+}
+#frosty:hover{
+    border: darkcyan solid 2px;
+    transition: transform .2s;
+    transform: scale(1.1);
+    z-index: 15;
+}
+#spicychicken:hover{
+    border: darkcyan solid 2px;
+    transition: transform .2s;
+    transform: scale(1.1);
+    z-index: 15;
+}
+#whopper:hover{
+    border: darkcyan solid 2px;
+    transition: transform .2s;
+    transform: scale(1.1);
+    z-index: 15;
+}
+#baconking:hover{
+    border: darkcyan solid 2px;
+    transition: transform .2s;
+    transform: scale(1.1);
+    z-index: 15;
+}
+#mcchicken:hover{
+    border: darkcyan solid 2px;
+    transition: transform .2s;
+    transform: scale(1.1);
+    z-index: 15;
+}
+#footlong:hover{
+    border: darkcyan solid 2px;
+    transition: transform .2s;
+    transform: scale(1.1);
+    z-index: 15;
+}
+#coke:hover{
+    border: darkcyan solid 2px;
+    transition: transform .2s;
+    transform: scale(1.1);
+    z-index: 15;
+}
+#sprite:hover{
+    border: darkcyan solid 2px;
+    transition: transform .2s;
+    transform: scale(1.1);
+    z-index: 15;
+}
+#mountain:hover{
+    border: darkcyan solid 2px;
+    transition: transform .2s;
+    transform: scale(1.1);
+    z-index: 15;
 }
 /*calorie Calculater style sheet*/
 /*Vegan Option style sheet*/
 section.left{
     border: 3px solid #000000;
     float: left;
+    background-color: rgba(0, 139, 139, 0.61);
     padding: 7px;
+    border-radius: 10px;
 }
 section.right{
     border: 3px solid #000000;
     float: right;
     padding: 7px;
+    background-color: rgba(0, 139, 139, 0.61);
+    border-radius: 10px;
+}
+section.middle{
+        border: 3px solid #000000;
+        margin-left: 600px;
+        margin-right: 600px;
+        padding: 7px;
+        background-color: rgba(0, 139, 139, 0.61);
+        border-radius: 10px;
 }
 img.place{
     height: 400px;
