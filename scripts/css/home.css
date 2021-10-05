@@ -83,7 +83,7 @@ table.number{
     border-radius: 5px;
     background-color: rgba(101, 218, 218, 0.685);
     width: 600px;
-    height: 300px;
+    height: 270px;
 }
 div.bigfont{
     font-family: verdana;
@@ -126,11 +126,38 @@ div.bigfont{
     border: black solid 2px;
     height: 250;
     float: left;
+    margin-left: 117px;
 }
 #baconking{
     border: black solid 2px;
     height: 250;
     float: right;
+    margin-right: 117px;
+}
+#mcchicken{
+    border: black solid 2px;
+    height: 250;
+    background-color: white;
+}
+#footlong{
+    border: black solid 2px;
+    height: 250;
+    background-color: white;
+}
+#coke{
+    border: black solid 2px;
+    height: 250;
+    background-color: white;
+}
+#sprite{
+    border: black solid 2px;
+    height: 250;
+    background-color: white;
+}
+#mountain{
+    border: black solid 2px;
+    height: 250;
+    background-color: white;
 }
 /*calorie Calculater style sheet*/
 /*Vegan Option style sheet*/
@@ -253,7 +280,6 @@ img.wooden{
     height: 300px;
 }
 /*How To Die style sheet*/
-<<<<<<< HEAD
 /*fast vs fresh style sheet*/
 
 body {
@@ -329,5 +355,3 @@ table.table3{
     right: 60%;
     top: 65%
 }
-=======
->>>>>>> 79a387ce4d9ece1c9e78433a6f07e7f9ad6ab94c
