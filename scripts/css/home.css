@@ -299,12 +299,24 @@ div.caloriefont{
 section.left{
     border: 3px solid #000000;
     float: left;
+    background-color: rgba(0, 139, 139, 0.61);
     padding: 7px;
+    border-radius: 10px;
 }
 section.right{
     border: 3px solid #000000;
     float: right;
     padding: 7px;
+    background-color: rgba(0, 139, 139, 0.61);
+    border-radius: 10px;
+}
+section.middle{
+        border: 3px solid #000000;
+        margin-left: 600px;
+        margin-right: 600px;
+        padding: 7px;
+        background-color: rgba(0, 139, 139, 0.61);
+        border-radius: 10px;
 }
 img.place{
     height: 400px;
