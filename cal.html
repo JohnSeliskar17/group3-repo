@@ -31,6 +31,11 @@
                 <div class="counter" id="calorieNumber">0</div>
             </td>
         </table>
+        <img src="images/food/mcchicken.png" id="mcchicken">
+        <img src="images/food/footlong.jpg" id="footlong">
+        <img src="images/food/coke.png" id="coke">
+        <img src="images/food/sprite.jpg" id="sprite">
+        <img src="images/food/mountain.jpg" id="mountain"><br><br><br><br>
         </center>
         <script>
             /*for the calorie calculator, the goal is to click the picture, and to have an individual function run for each picture that adds the number of calories to a specific text box, preferably you wont be allowed to type in the text box*/
@@ -75,6 +80,31 @@
                 });
             document.getElementById("baconking").addEventListener(`click` , function baconking() {
                     calorieNumber += 1150;
+                    document.getElementById("calorieNumber").innerHTML = calorieNumber;
+                    document.getElementById("calorieNumber").value += calorieNumber;
+                });
+                document.getElementById("mcchicken").addEventListener(`click` , function mcchicken() {
+                    calorieNumber += 357;
+                    document.getElementById("calorieNumber").innerHTML = calorieNumber;
+                    document.getElementById("calorieNumber").value += calorieNumber;
+                });
+                document.getElementById("mountain").addEventListener(`click` , function mountain() {
+                    calorieNumber += 170;
+                    document.getElementById("calorieNumber").innerHTML = calorieNumber;
+                    document.getElementById("calorieNumber").value += calorieNumber;
+                });
+                document.getElementById("footlong").addEventListener(`click` , function footlong() {
+                    calorieNumber += 620;
+                    document.getElementById("calorieNumber").innerHTML = calorieNumber;
+                    document.getElementById("calorieNumber").value += calorieNumber;
+                });
+                document.getElementById("coke").addEventListener(`click` , function coke() {
+                    calorieNumber += 140;
+                    document.getElementById("calorieNumber").innerHTML = calorieNumber;
+                    document.getElementById("calorieNumber").value += calorieNumber;
+                });
+                document.getElementById("sprite").addEventListener(`click` , function sprite() {
+                    calorieNumber += 140;
                     document.getElementById("calorieNumber").innerHTML = calorieNumber;
                     document.getElementById("calorieNumber").value += calorieNumber;
                 });
