@@ -1,6 +1,6 @@
 /*home style sheet*/
 body.home{
-    background-image: url(../../images/wood2.jpg);
+    background-image: url(../../images/wood4.png);
     background-size:100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -44,12 +44,12 @@ a:link, a:visited {
     display: inline-block;
 }
 .topnav {
+    margin-top: 30px;
     overflow: hidden;
     border: solid rgb(255, 255, 255) 2px;
     background-color:  #4d4d4d;
     position: absolute;
     left: 50%;
-    top: 3%;
     transform: translate(-50%,-50%)
 }
 .topnav a {
@@ -69,7 +69,7 @@ a:link, a:visited {
 /*home style sheet*/
 /*fast vs fresh style sheet*/
 body.fvf{
-    background-image: url(../../images/wood2.jpg);
+    background-image: url(../../images/wood4.png);
     background-size:100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -217,79 +217,79 @@ div.caloriefont{
     position:relative;
 }
 #fries:hover{
-    border: darkcyan solid 2px;
+    border: rgba(100, 148, 237, 0.63) solid 2px;
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 15;
 }
 #bigmac:hover{
-    border: darkcyan solid 2px;
+    border: rgba(100, 148, 237, 0.63) solid 2px;
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 15;
 }
 #baconator:hover{
-    border: darkcyan solid 2px;
+    border: rgba(100, 148, 237, 0.63) solid 2px;
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 15;
 }
 #davesdouble:hover{
-    border: darkcyan solid 2px;
+    border: rgba(100, 148, 237, 0.63) 2px;
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 15;
 }
 #frosty:hover{
-    border: darkcyan solid 2px;
+    border: rgba(100, 148, 237, 0.63) solid 2px;
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 15;
 }
 #spicychicken:hover{
-    border: darkcyan solid 2px;
+    border: rgba(100, 148, 237, 0.63) solid 2px;
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 15;
 }
 #whopper:hover{
-    border: darkcyan solid 2px;
+    border: rgba(100, 148, 237, 0.63) solid 2px;
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 15;
 }
 #baconking:hover{
-    border: darkcyan solid 2px;
+    border: rgba(100, 148, 237, 0.63) solid 2px;
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 15;
 }
 #mcchicken:hover{
-    border: darkcyan solid 2px;
+    border: rgba(100, 148, 237, 0.63) solid 2px;
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 15;
 }
 #footlong:hover{
-    border: darkcyan solid 2px;
+    border: rgba(100, 148, 237, 0.63) solid 2px;
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 15;
 }
 #coke:hover{
-    border: darkcyan solid 2px;
+    border: rgba(100, 148, 237, 0.63) solid 2px;
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 15;
 }
 #sprite:hover{
-    border: darkcyan solid 2px;
+    border: rgba(100, 148, 237, 0.63) solid 2px;
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 15;
 }
 #mountain:hover{
-    border: darkcyan solid 2px;
+    border: rgba(100, 148, 237, 0.63) solid 2px;
     transition: transform .2s;
     transform: scale(1.1);
     z-index: 15;
@@ -297,25 +297,25 @@ div.caloriefont{
 /*calorie Calculater style sheet*/
 /*Vegan Option style sheet*/
 section.left{
-    border: 3px solid #000000;
+    border: 4px solid #ffffff;
     float: left;
-    background-color: rgba(0, 139, 139, 0.61);
+    background-color: rgba(100, 148, 237, 0.63);
     padding: 7px;
     border-radius: 10px;
 }
 section.right{
-    border: 3px solid #000000;
+    border: 4px solid #ffffff;
     float: right;
     padding: 7px;
-    background-color: rgba(0, 139, 139, 0.61);
+    background-color: rgba(100, 148, 237, 0.63);
     border-radius: 10px;
 }
 section.middle{
-        border: 3px solid #000000;
+        border: 4px solid #ffffff;
         margin-left: 600px;
         margin-right: 600px;
         padding: 7px;
-        background-color: rgba(0, 139, 139, 0.61);
+        background-color: rgba(100, 148, 237, 0.63);
         border-radius: 10px;
 }
 img.place{
@@ -429,8 +429,9 @@ img.wooden{
 /*How To Die style sheet*/
 /*fast vs fresh style sheet*/
 
-body {
+body.fvf {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../../images/wood4.png);
 }
 
 .flip-card {
