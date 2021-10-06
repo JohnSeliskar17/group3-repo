@@ -19,12 +19,12 @@ function fastFresh(){
     document.getElementById(`fact5`).innerHTML = "Vegan water, now with more oxygen";
 }
 function calorieCalculator(){
-    document.getElementById(`header`).innerHTML = "Never gonna give you up";
-    document.getElementById(`info`).innerHTML = "www.youtube.com";
-    document.getElementById(`fact1`).innerHTML = "McDonalds";
-    document.getElementById(`fact2`).innerHTML = "KFC";
-    document.getElementById(`fact3`).innerHTML = "Wendy's";
-    document.getElementById(`fact5`).innerHTML = "Burger King";
+    document.getElementById(`header`).innerHTML = "Burger alternatives";
+    document.getElementById(`info`).innerHTML = "Made from tofu, soybeans, or vegetables";
+    document.getElementById(`fact1`).innerHTML = "Less meat";
+    document.getElementById(`fact2`).innerHTML = "Some can actually taste like meat";
+    document.getElementById(`fact3`).innerHTML = "Condiments such as Ketchup and Mustard can still be used.";
+    document.getElementById(`fact5`).innerHTML = "No chesse unfortunatly";
 }
 function veganOption(){
     document.getElementById(`header`).innerHTML = "Meatball alternatives"
