@@ -492,8 +492,9 @@ table.table2{
     top: -.7%;
 }
 table.table3{
-    border: solid  rgb(255, 255, 255) 4px;
+    border: solid rgb(255, 255, 255) 4px;
     border-radius: 10px;
+    color: white;
     width: 500px;
     height: 350px;
     background-color: rgba(100, 148, 237, 0.63);

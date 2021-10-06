@@ -33,10 +33,9 @@ a:link, a:visited {
     color: rgba(100, 148, 237, 0.63);
 }
 form {
-    border: 3px solid #f1f1f1;
+    border: 3px solid #ffffff;
 }
 
-  /* Full-width inputs */
 input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
@@ -46,9 +45,10 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
 }
 
-  /* Set a style for all buttons */
 button {
-    background-color: #04AA6D;
+    border: solid  rgb(255, 255, 255) 4px;
+    border-radius: 10px;
+    background-color: rgba(100, 148, 237, 0.63);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -57,19 +57,16 @@ button {
     width: 10%;
 }
 
-  /* Add a hover effect for buttons */
 button:hover {
     opacity: 0.8;
 }
 
-  /* Extra style for the cancel button (red) */
 .cancelbtn {
     width: auto;
     padding: 10px 18px;
     background-color: #f44336;
 }
 
-  /* Avatar image */
 img.avatar {
     background-image: url(../../images/killua.jpg);
     width: 100%;
@@ -77,18 +74,10 @@ img.avatar {
     background-repeat: no-repeat;
 }
 
-  /* Add padding to containers */
 .container {
     padding: 16px;
 }
 
-  /* The "Forgot password" text */
-span.psw {
-    float: right;
-    padding-top: 16px;
-}
-
-  /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
     span.psw {
     display: block;
@@ -96,9 +85,4 @@ span.psw {
     }
     .cancelbtn {
     width: 100%;
-<<<<<<< HEAD
     }
-=======
-    }
-}
->>>>>>> 4dad9e72d80ce302a281573562a19d71ede9a421
