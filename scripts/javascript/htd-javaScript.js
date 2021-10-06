@@ -6,32 +6,32 @@ let wineImage = document.querySelector('#wine');
 function beerInfo(){
     document.getElementById(`alcohol`).innerHTML = "Beer";
     document.getElementById(`made`).innerHTML = "Various grains and Hops";
-    document.getElementById(`man`).innerHTML = "hello";
-    document.getElementById(`woman`).innerHTML = "FINALLY!!!"
+    document.getElementById(`man`).innerHTML = "66 cups (15.6 L)";
+    document.getElementById(`woman`).innerHTML = "56 cups (13.2 L)";
 }
 function sparkleInfo(){
     document.getElementById(`alcohol`).innerHTML = "Champagne";
     document.getElementById(`made`).innerHTML = "Grapes";
-    document.getElementById(`man`).innerHTML = "Fatty"
-    document.getElementById(`woman`).innerHTML = "Fatty";
+    document.getElementById(`man`).innerHTML = "28 cups (6.6 L)";
+    document.getElementById(`woman`).innerHTML = "24 cups (5.6 L)";
 }
 function rumInfo(){
     document.getElementById(`alcohol`).innerHTML = "Rum";
     document.getElementById(`made`).innerHTML = "Molasses";
-    document.getElementById(`man`).innerHTML = "Help";
-    document.getElementById(`woman`).innerHTML = "Me";
+    document.getElementById(`man`).innerHTML = "9 cups (2.1 L)";
+    document.getElementById(`woman`).innerHTML = "7 cups (1.6 L)";
 }
 function vodkaInfo(){
     document.getElementById(`alcohol`).innerHTML = "Vodka";
     document.getElementById(`made`).innerHTML = "Potatoes";
-    document.getElementById(`man`).innerHTML = "God fucking damit Kris!";
+    document.getElementById(`man`).innerHTML = "God dang it Kris!";
     document.getElementById(`woman`).innerHTML = "Where the HELL are we?!";
 }
 function wineInfo(){
     document.getElementById(`alcohol`).innerHTML = "Wine";
     document.getElementById(`made`).innerHTML = "Grapes";
-    document.getElementById(`man`).innerHTML = "yufryurfhb";
-    document.getElementById(`woman`).innerHTML = "ifrbjerberiqui";
+    document.getElementById(`man`).innerHTML = "29 cups (6.8 L)";
+    document.getElementById(`woman`).innerHTML = "24 cups (5.6 L)";
 }
 beerButton.addEventListener(`click`, beerInfo);
 sparkleImage.addEventListener(`click`, sparkleInfo);
