@@ -24,8 +24,8 @@ function rumInfo(){
 function vodkaInfo(){
     document.getElementById(`alcohol`).innerHTML = "Vodka";
     document.getElementById(`made`).innerHTML = "Potatoes";
-    document.getElementById(`man`).innerHTML = "God dang it Kris!";
-    document.getElementById(`woman`).innerHTML = "Where the HELL are we?!";
+    document.getElementById(`man`).innerHTML = "9 cups (2.1 L)";
+    document.getElementById(`woman`).innerHTML = "7 cups (1.6 L)";
 }
 function wineInfo(){
     document.getElementById(`alcohol`).innerHTML = "Wine";
