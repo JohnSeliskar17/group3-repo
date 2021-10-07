@@ -30,8 +30,8 @@ function veganOption(){
     document.getElementById(`header`).innerHTML = "Meatball alternatives"
     document.getElementById(`info`).innerHTML = "Soybeans, tofu, almonds, Paris, the entirety of Mars";
     document.getElementById(`fact1`).innerHTML = "Made with 0% animals";
-    document.getElementById(`fact2`).innerHTML = "Gives you good dreams (Not responsible for nightmares of torture, torment, or anything similar reported in 90% of people who eat)";
-    document.getElementById(`fact3`).innerHTML = "Only $149.99!";
+    document.getElementById(`fact2`).innerHTML = "Totally better then regular meat balls";
+    document.getElementById(`fact3`).innerHTML = "Are you a weirdo if so this is the food for you";
     document.getElementById(`fact5`).innerHTML = "Order now!";
 }
 placeHolderOne.addEventListener(`click`, homeIndex);
